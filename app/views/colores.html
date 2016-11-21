@@ -1,0 +1,43 @@
+<label class="labelColor"> ¿Cuál de los siguientes colores es el que más te gusta? </label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.colores" value="1" checked>
+           Amarillo
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.colores" value="5">
+            Blanco 
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.colores" value="3">
+             Azul cielo 
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.colores" value="2">
+           Azul oscuro
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.colores" value="4">
+            Rojo 
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="cuestionario.comida" class="btn btn-block btn-info">
+    Siguiente pregunta <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

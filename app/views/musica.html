@@ -1,0 +1,43 @@
+<label class="labelColor">  ¿Cuál es el tipo de música que te gusta? </label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.musica" value="2" checked>
+           Rock and Roll
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.musica" value="1">
+             Alternativa
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.musica" value="4">
+            Rock ligero
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.musica" value="5">
+          Country  
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.musica" value="3">
+             Pop 
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="cuestionario.peliculas" class="btn btn-block btn-info">
+    Siguiente pregunta <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

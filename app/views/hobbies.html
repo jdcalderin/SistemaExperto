@@ -1,0 +1,43 @@
+<label class="labelColor"> ¿Qué haces con tu tiempo libre? </label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.hobbies" value="5" checked>
+          Ejercicio 
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.hobbies" value="4">
+            Leer
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.hobbies" value="2">
+            Ver televisión
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.hobbies" value="1">
+          Escuchar música
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.hobbies" value="3">
+            Dormir 
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="cuestionario.colores" class="btn btn-block btn-info">
+    Siguiente pregunta <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

@@ -1,0 +1,43 @@
+<label class="labelColor"> ¿Cuál de las siguientes ocupaciones escogerías, si éstas fueran tus únicas opciones?  </label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.ocupaciones" value="4" checked>
+           Mesero 
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.ocupaciones" value="5">
+            Deportista profesional
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.ocupaciones" value="3">
+           Maestro 
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.ocupaciones" value="2">
+           Policía  
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.ocupaciones" value="1">
+            Cajero 
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="cuestionario.hobbies" class="btn btn-block btn-info">
+    Siguiente pregunta <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

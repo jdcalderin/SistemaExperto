@@ -1,0 +1,43 @@
+<label class="labelColor"> ¿Cuál es tu fiesta favorita?  </label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.fiestas" value="1" checked>
+          Halloween 
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.fiestas" value="3">
+            Navidad 
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.fiestas" value="2">
+           Año Nuevo
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.fiestas" value="4">
+           San Valentín 
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.fiestas" value="5">
+            Acción de Gracias
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="cuestionario.lugares" class="btn btn-block btn-info">
+    Siguiente pregunta <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>
